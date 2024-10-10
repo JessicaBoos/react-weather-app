@@ -46,7 +46,7 @@ export default function WeatherSearch() {
         <input type="submit" value="Search" />
       </form>
 
-      {submitted && <img src={iconUrl} />}
+      {submitted && <img alt="weathericon" src={iconUrl} />}
       <div>{submitted && <div>{message}</div>}</div>
     </div>
   );
